@@ -1,0 +1,45 @@
+Hem static olacak hem de ilgili teste özel olacak
+
+Bilgisayarın gelişimi
+i3,i5,i7
+
+ilk çıkan işlemci
+80 86 -> ilk işlemci
+80 286 -> 286 işlemci
+80 386 -> 386 işlemci
+80 486 -> 486 işlemci
+80 586 -> Pentium işlemci 4 GHz(hız)
+güç aynı zaman ısı, daha yüksek hızlı işlemci yapamıyorlar
+içindeki parçalar ısıya dayanamıyor
+
+memurun yanına bir memur koyacaksın
+işlemcinin içerisinde esas iş kısım var buna ALU deniyor esas çekirdek kısım
+işlemcinin içinde 2 tane çekirdek koyalım
+Aynı anda kaç iş işlemci 2 iş yapıyor, çekirdek core
+İ3 2 core
+İ5 4 core
+İ7 8 core
+
+organize eden kişi, 10 işi 2 memura sanki paralel gibi yaptırıyor
+Windows iş leri öyle sıraya koyup organize ediyorki, sanalda sanki 20 çekirdek varmış gibi
+4 çekirdeğe iş yaptırıyor, sanal paralel çalıştırma
+
+Her bir işin izlediği hatta, iş hattına Pipe Line , Thread deniyor.
+Thread.Sleep -> o hattı bir süre beklet
+
+Her Thread e özel Static driver tanılıyacağız.
+Thread in localine yani kendine özel tanımlama yapılacak.
+
+static ThreadLocal<Webdriver>      static List<WebDriver> gibi düşünün
+List e eklemek için add,    ThreadLocal   set()
+List ten almak için get                   get()
+
+public static ThreadLocal<WebDriver> threadDriver;
+
+hatta driver vermek:  threadDriver.set(new driver);
+hattaki driverı almak için:  threadDriver.get()  -> driver
+
+
+
+
+

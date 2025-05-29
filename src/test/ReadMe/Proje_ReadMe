@@ -1,0 +1,15 @@
+1- Yeni projeye tıklattım -> Proje tipi olarak MAVEN seçildi
+   Java versiyonu olarak en az Java 11 seçildi.
+
+2- Maven olarak açılan projede aşağıdaki klasör yapısı gözüktü:
+   main: Developer ın source kodları
+   test: Tester ın kodları
+
+3- Maven ın verdiği düzenli klasör yapısında, Cucumber projesine
+   uygun aşağıdaki klaösrleri açacağız.
+
+   FeatureFiles    -> Senaryolar burada
+   StepDefinitions -> Senaryoların çalışan step kodları
+   Pages           -> Page Object Modele uygun class, ve onlara gerekli classlar
+   Utilities       -> Driver ve diğer Tool larımız
+   Runners         -> Çalıştırıcılar

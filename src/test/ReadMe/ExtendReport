@@ -1,0 +1,16 @@
+ExtendReport İşlemleri
+https://www.youtube.com/watch?v=aU5daBh7YVA
+
+1- POM a ilgili dependecy eklenir.
+
+        <dependency>
+            <groupId>tech.grasshopper</groupId>
+            <artifactId>extentreports-cucumber7-adapter</artifactId>
+            <version>1.10.1</version>
+        </dependency>
+
+2- Runner Class aşağıdaki plugin eklenir
+   plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
+
+3- src/test/resources/extent.properties   dosyası resources klasörünün
+      altına açılarak aşağıdaki 2 satır eklendi.

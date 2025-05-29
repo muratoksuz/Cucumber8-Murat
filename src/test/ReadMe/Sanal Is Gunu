@@ -1,0 +1,105 @@
+Sanal bir İş Günü
+
+Development takımı kimlerde oluşuyor
+
+PO (GMY)  - > Deputy Manager
+
+Takım
+developerlar 4-5
+testerlar    4-5
+takım yönetici -> Scrum Master (takım lead)
+
+yazılım mimarı
+Business Analist > BA
+
+-> İlk işe giriş önce eğitim
+   (Boarding işlemler)-> resmi işler, resmi işe giriş
+   Oryantasyonlar
+   Bilgi transferi -> KT -> Knowledge Transfer
+   1-2 ay sürüyor
+   2 ay sonra sizden iş bekliyor
+
+   Donanımlar nasıl
+   Ortam deniyor -> birden fazla bilgisayarın ve donamın oluşturduğu grup
+   Dev Ortamı dev1, dev2
+   Test Ortamı test1, test2 (canlı copy)
+   UAT -> testten geçen değişiklikleri Business User tarafından kabul ortamı
+   PROD-> Canlı çalışan ortam
+
+   BA -> BU dan aldığı işi senaryolaştırdığı ve bunları JIRA BackLog bölüme
+   sürekli atar,
+
+   BA aldığı bilgiyi dev ve test e Scrum master eşliğinde iletir.
+   Scrum Master -> Sprint 2 haftalık döngülerle iş başlatılıyor
+
+   BackLog sıradaki işleri alır -> şu bu iş sırada bu kaç gün sürer 3 gün sürer
+   1 dev e Jirada atanır, 1 Tester a da bir kopyası test olarak atanır.
+   Scrum master soruyor dev e yapılacaklar anlaşıldı mı,
+                        test a da soruluyor
+
+   2 haftalık iş süreci başlar
+   8 de işe gidiş, poğaça
+   9 da emaillere bakılır -> cevap yazılır, testin sonuçları emaile gelmiş mi diye
+   bakılır kahvaltı halledilmişolur
+
+   9:15 Daily , takım üyeleri hepsi teker dün ne yaptım, bugün ne yapacağım
+                beni engelleyen var mı
+
+                15-20 dk sürer
+
+   Masamıza döndük, Dev den bitip gelen iş var ise, Jirada gözükür,
+   Manuel testing yaparım
+   eğer bir bug var ise de yok ise de ekran görüntüsü alınır. evidence alınır
+   Defect Taskı açıyorsun dev e
+   1- şu kullanıc ve şifreyle girdim
+   2- şu menuye girdim
+   3- Şuna tıklattım
+   4- şu bilgiyi girdim
+   5- aşağıdaki görüntüsü olan bug la karşılaştım.
+   6- bunu bekliyordum bu oldu
+   dev e assign
+
+   manuel test bitti ise, automation test yazılımını yapıp ana koda gönderiyorum
+
+   testi biten geliştirmeler UAT ye atılıyor
+   tester olarak emal atıyorsun BU ya , şu geliştirmeyi
+   şu kullanıcı ve şifre ile şu linkten test edebilirsiniz.
+
+   BU test ediyor emaile  onay dönüyor.
+
+   2 haftalık sprint bitmiş oluyor
+
+    sprint review  toplantısı yapılır. herkes yaptığını
+         herkese anlatıyor.BA tamam diyor.
+
+    - Sprint bittikten 3-4 gün sonra
+      sprint retrospective toplantısı yapılıyor
+
+    Geçen Sprintte
+             neleri yapmaya devam eedersek daya iyi olur?
+             neleri yeni yapmaya başlarsak daha iyi olur?
+             neleri durdurursak daha iyi olur ?
+             Sürekli iyileştirme.Alınan karalar bir sonraki
+             sprintte uygulanır.
+
+    UAT kabulu yapılmış geliştirmeler PROD a atılma sürecine Release denir.
+
+    Cumartesi akşam 6 deniyor mesala,
+    dev led,test led, BU, BA, aktarım yapılıyor yeni versiyon yükleniyor.
+    BU test ediyor canlı da, eğer burada bir proble olursa hemen eski
+    sürüme geri dönülüyor,
+
+    PROD -> Production yani çalışn canlı ortam demek
+
+    İşe alınırken aranan özellikler
+    1- Takım uyumlu çalışıyor mu
+    2- Kendini rahat güzel ifade edebiliyor mu, iletişim
+    3- Bilgisi yeterli mi
+
+
+
+
+
+
+
+
