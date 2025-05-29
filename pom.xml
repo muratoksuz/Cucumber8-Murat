@@ -87,6 +87,13 @@
             <scope>test</scope>
         </dependency>
 
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.30</version> <!-- en güncel uyumlu versiyon -->
+            <scope>provided</scope>
+        </dependency>
+
     </dependencies>
 
     <!--  Jenkins in Çalıştırma komutunun , nereyi açlıştıracağını belirlediğimiz plugin -->
